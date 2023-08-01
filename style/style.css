@@ -36,3 +36,23 @@ section#phone {
     width: 265px;
     height: 470px;
 }
+
+#social {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#social img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px black;
+    width: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#social img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition: 0.5s;
+}
